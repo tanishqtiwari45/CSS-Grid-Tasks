@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid</title>
+    <style>
+        .container{
+            border: 4px solid; 
+            display: grid;
+            grid-template-columns: 200px auto auto ;
+            /* width: 90%; */
+            /* height: 100%; */
+             
+
+        }
+        .item-1{
+            background-color: cadetblue; 
+            grid-column: 1/4;
+            color: white;
+            height: 100px;
+           text-align: center;
+           border-radius: 12px;
+        }
+        .item-2{
+            background-color: cadetblue;
+            border-radius: 12px ;
+            color: white;
+            text-align: center;
+        
+            
+
+        }
+        .item-3{
+            /* background-color: darkgreen; */
+            grid-column:2/3;
+            color: white;
+            height: 400px;
+            text-align: center;
+            
+
+        
+        }
+        .item-4{ 
+            /* background-color: aqua; */
+            /* grid-row: /4; */
+            text-align: center;
+        }
+        .item-5{
+            background-color: cadetblue;
+            grid-column: 1/4;
+            height: 100px;
+            /* color: white; */
+            border-radius: 12px;
+            text-align: center;
+            color: white;
+
+        }
+        .second{
+            background-color: cadetblue;
+            width: 100%;
+            height: 49%;
+            border: 2px solid white;
+            margin-bottom:10px;
+            border-radius: 12px;
+        }
+        .second_2{
+            background-color: cadetblue;
+            width: 100%;
+            height: 45%;
+            border: 2px solid white;
+            border-radius: 12px;
+        }
+        .third-1{
+            background-color: cadetblue;
+            width: 100%;
+            height: 18%;
+            border: 2px solid white;
+            border-radius: 12px;
+        }
+        .third-2{
+            background-color: cadetblue;
+            width: 100%;
+            height: 19%;
+            border: 2px solid white;
+            border-radius: 12px;
+        }
+        .third-3{
+            background-color: cadetblue;
+            width: 100%;
+            height: 19%;
+            border: 2px solid white;
+            border-radius: 12px;
+        }
+        .third-4{
+            background-color: cadetblue;
+            width: 100%;
+            height: 19%;
+            border: 2px solid white;
+            border-radius: 12px;
+        }
+        .third-5{
+            background-color: cadetblue;
+            width: 100%;
+            height: 19%;
+            border: 2px solid white;
+            border-radius: 12px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+     <div class="items item-1" style=" padding: 10px;"> Header</div>
+     <div class="items item-2" style=" padding: 10px;" >sidebar</div>
+     <div class="items item-3"  style=" padding: 10px;">
+        <div class="second"> content-1</div>
+        <div class="second_2"> content-2</div>
+     </div>
+     <div class="items item-4" style=" padding: 10px;" >
+        <div class="third-1"style="color:white">right-1</div>
+        <div class="third-2"style="color:white">right-2</div>
+        <div class="third-3"style="color:white">right-3</div>
+        <div class="third-4"style="color:white">right-4</div>
+        <div class="third-5"style="color:white">right-5</div>
+     </div>
+     <div class="items item-5" style="padding: 10px;" >footer</div>
+    </div>
+</body>
+</html>
