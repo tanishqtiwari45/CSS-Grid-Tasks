@@ -18,7 +18,7 @@ Clone the repository to your local machine:
 
 1. In git bash, Copy Code
 ```
-git clone https://github.com/yourusername/santorini-holidays.git
+git clone https://github.com/tanishqtiwari45/CSS-Grid-Tasks.git
 cd santorini-holidays
 ```
 
