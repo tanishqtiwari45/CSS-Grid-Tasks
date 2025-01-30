@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		.main{
+			width: 85%;
+			height: 85vh;
+			/* border: 2px solid; */
+			margin-left: 15%;
+			margin-top: 81px;
+			background-color: crimson;
+			position: relative;
+		}
+		.grid{
+			display: grid;
+			grid-template-columns: 100fr 100fr 100fr;
+			grid-template-rows:100fr 100fr 100fr 100fr 100fr 100fr 100fr 100fr 100fr;
+			gap: 25px;
+			height: 450px;
+			width: 80%;
+			/* border: 2px solid white; */
+			position: absolute;
+			left: -100px;
+			top: 75px;
+
+		}
+		.item-1{
+			background-color: blue;
+			grid-column: 1/3;
+			grid-row: 1/10;
+		}
+		.item-2{
+			background-color: yellow;
+			grid-column: 3/9;
+			grid-row: 1/5;
+			border-radius: 15px;
+		}
+		.item-3{
+			background-color: green;
+			grid-column: 3/5;
+			grid-row: 3/10;
+			border-radius: 15px;
+		}
+		.item-4{
+			background-color: yellow;
+			grid-column: 5/7;
+			grid-row: 3/10;
+		}
+		.item-5{
+			background-color: green;
+			grid-column: 7/9;
+			grid-row: 3/10;
+		}
+		.item-6{
+			background-color: yellow;
+			grid-column: 1/3;
+			
+		}
+		.item-7{
+			background-color: green;
+			grid-column: 7/8;
+			grid-row: 3/9;
+		}
+	</style>
+</head>
+<body>
+	<div class="main">
+		<div class="grid">
+			<div class="item-1 "style="border-radius:15px;">1</div>
+			<div class="item-2" style="padding-left: 15px;">
+				<h3>The Algarve potugal</h3>
+				<p>Vhile rhere is no denying that winter sea swimmmg is resewed for the fearless, there is still some good surf and sun-kissed
+				ays to be had. With over 300 sunny days a year and heavily discounted prices outside summer, the off-season in the
+				Algarve is a zood gamble to get vour winter Vitamin C.
+			   </p> <br>
+			   <p><u>Read More</u></p>
+		    </div>
+			<div class="item-3">3</div>
+			<div class="item-4">4</div>
+			<div class="item-5">5</div>
+			<div class="item-6">
+				<h1>01</h1>
+				<p>
+					Sed ut perspiciatis unde
+					omnis iste natus error sit
+					voluptatem accusantium
+					doloremque laudantium,</p>
+			</div>
+			<div class="item-7">7</div>
+			<div class="item-8">8</div>
+			
+		</div>
+	</div>
+</body>
+</html>
